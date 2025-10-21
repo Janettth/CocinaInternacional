@@ -8,7 +8,7 @@ if (isset($_POST["nombre"])) {
     $carrera_id = $_POST["carrera_id"];
     $conexion->query("INSERT INTO usuarios (Nombre, Correo, Contraseña, carrera_id)
                       VALUES ('$nombre', '$correo', '$contraseña', '$carrera_id')");
-    echo "<p>✅ Usuario agregado correctamente.</p>";
+    echo "<p>Usuario agregado : )</p>";
 }
 
 $carreras = $conexion->query("SELECT * FROM carreras");
