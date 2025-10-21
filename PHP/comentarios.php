@@ -10,7 +10,7 @@ if (isset($_POST["texto"])) {
 
     $conexion->query("INSERT INTO comentarios (TextoComentario, Fecha, usuario_id, platillo_id)
                       VALUES ('$texto', '$fecha', '$usuario_id', '$platillo_id')");
-    echo "<p>✅ Comentario agregado correctamente.</p>";
+    echo "<p>Comentario agregado :) </p>";
 }
 
 $usuarios = $conexion->query("SELECT ID, Nombre FROM usuarios");
