@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$usuario = "root";       // o el usuario de tu base de datos
-$contraseña = "";        // deja vacío si estás usando XAMPP
-$base_datos = "cocinainternacional"; // cámbialo por el tuyo
+$usuario = "root";       
+$contraseña = "";        
+$base_datos = "cocinainternacional"; 
 
 $conexion = new mysqli($host, $usuario, $contraseña, $base_datos);
 
